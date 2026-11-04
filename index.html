@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jackson-Son TV</title>
+<style>
+  :root { --mint: #7ff0c8; --deep: #0e9f74; --ink: #ffffff; --soft: #b9c6d8; }
+  html, body { margin: 0; min-height: 100%; }
+  body {
+    background: linear-gradient(#14243d, #05080f) fixed;
+    color: var(--ink);
+    font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    display: flex; align-items: center; justify-content: center;
+    min-height: 100vh; padding: 24px 16px; box-sizing: border-box;
+  }
+  main { max-width: 720px; width: 100%; text-align: center; }
+  svg { width: 96px; height: 96px; }
+  h1 { font-size: 44px; font-weight: 600; margin: 18px 0 6px; }
+  .version { color: var(--soft); font-size: 18px; margin: 0 0 36px; }
+  a.download {
+    display: inline-block; font-size: 30px; font-weight: 700; text-decoration: none;
+    color: #04261b; background: linear-gradient(var(--mint), #3fd8a8);
+    padding: 22px 56px; border-radius: 999px; outline: 4px solid transparent;
+    box-shadow: 0 10px 30px rgba(14, 159, 116, 0.35);
+  }
+  a.download:focus, a.download:hover { outline-color: #ffffff; }
+  ol { text-align: left; color: var(--soft); font-size: 18px; line-height: 1.6; margin: 40px auto 0; max-width: 560px; }
+  ol b { color: var(--ink); }
+</style>
+</head>
+<body>
+<main>
+  <svg viewBox="0 0 100 100" aria-hidden="true">
+    <defs>
+      <linearGradient id="g" x1="0" y1="0" x2="0.6" y2="1">
+        <stop offset="0" stop-color="#7ff0c8" stop-opacity="0.85"/>
+        <stop offset="1" stop-color="#0e9f74" stop-opacity="0.95"/>
+      </linearGradient>
+    </defs>
+    <path d="M24 14 Q20 12 20 18 L20 82 Q20 88 25 85 L84 53 Q89 50 84 47 Z" fill="url(#g)" stroke="rgba(255,255,255,0.7)" stroke-width="1.5"/>
+  </svg>
+  <h1>Jackson-Son TV</h1>
+  <p class="version">Version 0.17</p>
+  <a class="download" href="jackson-son-tv.apk" autofocus>Download</a>
+  <ol>
+    <li>Press <b>OK</b> on Download.</li>
+    <li>When it finishes, choose <b>Install</b>, then <b>Open</b>.</li>
+    <li>Sign in with your TV provider's details. Updates then arrive by themselves.</li>
+  </ol>
+</main>
+</body>
+</html>
