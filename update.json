@@ -1,6 +1,6 @@
 {
-  "versionCode": 19,
-  "versionName": "0.19",
+  "versionCode": 22,
+  "versionName": "0.22",
   "apk": "https://jrv5kr2ggw-crypto.github.io/Jackson-Son-TV/jackson-son-tv.apk",
-  "notes": "Fixtures: today's football and rugby with the real kick-off times, the best-known channel for each game, and live scores. OK plays the best version. Women's games marked. Hold OK to remove from Continue Watching. Clearer channel names and logos, and smoother live channels."
+  "notes": "Live TV: choosing a channel from the guide is instant (the small picture carries straight on), the banner no longer covers the score, it says how far behind live you are, and Back rejoins live. Films and episodes: skipping back is instant, skipping is smoother and stops before the end, Down shows the controls, they stay up when paused, subtitles sit above them, a brief picture hiccup no longer stops playback, and progress is only saved once something plays. If your provider says the account is already in use, the app waits and tells you instead of trying copy after copy."
 }
